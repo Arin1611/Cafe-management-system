@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    background-image: url(WhatsApp\ Image\ 2024-11-12\ at\ 00.13.01_4e315213.jpg)
+}
+
+.container {
+    text-align: center;
+    width: 550px;
+    background-color: #a5e5f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#totalBill {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+#orderItems {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+footer {
+    background-color: #f1f1f1; /* Change this to your desired footer background color */
+    text-align: center; /* Centers the text inside the footer */
+    padding: 10px; /* Adds some padding */
+}
